@@ -92,7 +92,7 @@ void man(char *name)
     else if (strcmp(name, "fstat") == 0)
     {
         printf("Description : Used to display information of file\n");
-        printf("Usage :stat File_descripter\n");
+        printf("Usage :fstat File_descripter\n");
     }
     else if (strcmp(name, "truncate") == 0)
     {
@@ -127,7 +127,7 @@ void man(char *name)
     else if (strcmp(name, "rm") == 0)
     {
         printf("Description : Used to delete the file\n");
-        printf("Usage :rmFile_name\n");
+        printf("Usage :rm File_name\n");
     }
     else
     {
@@ -625,7 +625,7 @@ int main()
     {
         fflush(stdin);
         strcpy(str, "");
-        printf("\nMarvellous VFS : > ");
+        printf("\Semisoft VFS : > ");
 
         if (fgets(str, sizeof(str), stdin) == NULL)
         {
@@ -660,7 +660,7 @@ int main()
             else if (strcmp(command[0], "exit") == 0)
             {
                 CloseAllFile();
-                printf("Terminating the Marvellous Virtual File System\n");
+                printf("Terminating the Semisoft Virtual File System\n");
                 break;
             }
             else
