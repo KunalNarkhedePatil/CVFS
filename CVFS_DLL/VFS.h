@@ -13,9 +13,7 @@
 #define NULL 0
 
 #define MAXFILESIZE 1024
-
 #define REGULAR 1
-
 #define SPECIAL 2
 
 #define START 0
