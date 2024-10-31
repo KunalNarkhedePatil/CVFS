@@ -71,18 +71,18 @@ extern "C" {
     __declspec(dllimport) void CloseAllFile();
     __declspec(dllimport) int ReadFile(int fd, char* buffer, int size);
     __declspec(dllimport) int WriteFile(int fd,  char* buffer, int size);
-	__declspec(dllimport) int rm_File(char *name);
+    __declspec(dllimport) int rm_File(char *name);
     __declspec(dllimport) int LseekFile(int fd, int size, int from);
     __declspec(dllimport) void ls_file();
-	__declspec(dllimport) int countFiles();
+    __declspec(dllimport) int countFiles();
     __declspec(dllimport) int fstat_file(int fd);
     __declspec(dllimport) int stat_file( char* name);
     __declspec(dllimport) int truncate_File( char* name);
     __declspec(dllimport) int GetFDFromName( char* name);
     __declspec(dllimport) void DisplayHelp();
     __declspec(dllimport) void man(char* command);
-	__declspec(dllimport) int ChangeFilePermissions(char* name, int permission);
-	__declspec(dllimport) int RenameFileName(char* oldName,char *newName);
+    __declspec(dllimport) int ChangeFilePermissions(char* name, int permission);
+    __declspec(dllimport) int RenameFileName(char* oldName,char *newName);
 }
 
 #endif // VFS_H
