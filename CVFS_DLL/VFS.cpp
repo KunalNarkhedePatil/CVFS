@@ -1,17 +1,19 @@
 /*Customized-Virtual-FIle-System
 Project Name : Customized Virtual FIle System
-
 Technology Used: C Programming and DLL Concept
-
 User Interface Used: Command line Interface (CUI)
 
 Description of the Project:
 
-In this Project, implement data structures used in Operating System for FIle Management System.
-Provide all implementations of necessary system calls and commands of File subsystem as Open, Close, Read, Write, Lseek, Create, RM.
-While providing the implementations of all above functionality use my own data structures by referring to Algorithms of UNIX operating system.
-By using this project get the overview of UFS (UNIX File System) on any platform.
-Data Structure used in the Project:
+I’ve been working on an exciting project to create a Virtual File System (VFS) using C++.
+This project utilizes dynamic link libraries (DLLs) to handle essential file operations, 
+such as creating, opening, reading, writing ,rename file and managing files through a command-line interface.
+By implementing essential system calls such as Open, Close, Read, Write, Lseek , Create, and RM,
+the VFS effectively mimics traditional file handling for a seamless user experience. 
+I designed a modular structure that encapsulates core functionalities within the DLL, promoting code
+reuse and efficient memory management. To organize and manage data effectively, I utilized linked lists and arrays,
+which significantly improved the overall performance and functionality of the system.
+This project has improved my C++ skills and helped me understand file systems and dynamic libraries better.
 
 FILE TABLE
 IIT (IN CORE INODE TABLE)
