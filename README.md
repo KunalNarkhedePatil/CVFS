@@ -3,7 +3,7 @@
 ## 📌 Introduction
 The **Customized Virtual File System(CVFS)** is a powerful and efficient file management system built in C++. It utilizes **Dynamic Link Libraries (DLLs)** to execute essential file operations such as **creating, opening, reading, writing, renaming, and deleting files** via a **command-line interface**. This project mimics traditional file handling systems while offering modularity, efficiency, and ease of use.
 
-Designed with a **modular approach**, the CVFS encapsulates core functionalities within DLLs to improve **code reuse** and **memory management**. By implementing **key system calls** (`Open`, `Close`, `Read`, `Write`, `Lseek`, `Create`, `RM`), the VFS ensures seamless file operations similar to a native file system. 
+Designed with a **modular approach**, the CVFS encapsulates core functionalities within DLLs to improve **code reuse** and **memory management**. By implementing **key system calls** (`Open`, `Close`, `Read`, `Write`, `Lseek`, `Create`, `RM`), the CVFS ensures seamless file operations similar to a native file system. 
 
 To enhance **data organization and management**, linked lists and arrays are used, ensuring optimized storage and performance.
 
