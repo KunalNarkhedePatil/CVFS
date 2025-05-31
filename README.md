@@ -28,7 +28,7 @@ To enhance **data organization and management**, linked lists and arrays are use
 - **Delete unnecessary files** via `RM` for cleanup.
 - **Manage file pointer** using `Lseek` for data retrieval modifications.
 
-👨‍💻 **LinkedIn:** [Project Link](https://l1nk.dev/1hRlF)
+👨‍💻 **LinkedIn Post Link:** [Project Link](https://l1nk.dev/1hRlF)
 
 ### ✅ Architecture of Project:
 ![Descriptive Alt Text](https://raw.githubusercontent.com/KunalNarkhedePatil/CVFS/main/CVFS_DLL/CVFS.png)
