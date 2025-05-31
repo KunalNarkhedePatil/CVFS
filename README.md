@@ -30,6 +30,11 @@ To enhance **data organization and management**, linked lists and arrays are use
 
 👨‍💻 **LinkedIn:** [Project Link](https://l1nk.dev/1hRlF)
 
+### ✅ Architecture of Project:
+![Descriptive Alt Text](https://raw.githubusercontent.com/KunalNarkhedePatil/CVFS/main/CVFS_DLL/CVFS.png)
+
+
+
 ### ✅ Command-Line Interaction:
 The user interacts with files through a simple command-based system:
 ```bash
